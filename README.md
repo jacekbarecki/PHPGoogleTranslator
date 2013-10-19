@@ -29,3 +29,7 @@ echo GoogleTranslator::translate('fr', 'Hello world!'); //prints out 'Bonjour to
 
 Each of the three methods - `translate()`, `detect()` and `languages()` - is documented right in the code. Read the
 documentation to check how to use each of them.
+
+**Getting the language codes**
+
+To get the language codes that are being passed as arguments in the `translate()` method, check the [API documentation](https://developers.google.com/translate/) or call the `languages()` method.
